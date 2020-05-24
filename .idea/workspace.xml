@@ -5,6 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center-3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client-3355/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -116,6 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-client-3366" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.sher6j.springcloud.ConfigClientMain3366" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-eureka-server7001" />
       <extension name="coverage">
@@ -190,6 +201,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.sher6j.springcloud.PaymentHystrixMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment8001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.sher6j.springcloud.PaymentMain8001" />
@@ -219,12 +237,14 @@
       <item itemvalue="Spring Boot.PaymentMain8002" />
       <item itemvalue="Spring Boot.OrderFeignMain80" />
       <item itemvalue="Spring Boot.OrderHystrixMain80" />
+      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.GateWayMain9527" />
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
-      <item itemvalue="Spring Boot.HystrixDashboardMain9001" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+      <item itemvalue="Spring Boot.ConfigClientMain3366" />
     </list>
     <recent_temporary>
       <list>
@@ -290,7 +310,9 @@
       <workItem from="1590150537481" duration="314000" />
       <workItem from="1590150867299" duration="5516000" />
       <workItem from="1590197726881" duration="860000" />
-      <workItem from="1590198604497" duration="5663000" />
+      <workItem from="1590198604497" duration="5742000" />
+      <workItem from="1590241953743" duration="9000" />
+      <workItem from="1590327744639" duration="3543000" />
     </task>
     <task id="LOCAL-00001" summary="openfeign">
       <created>1590036018536</created>
@@ -327,7 +349,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590156893278</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="openfeign">
+      <created>1590207533755</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590207533755</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,46 +383,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="243" y="266" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680@0.0.1280.680" timestamp="1589984802763" />
-    <state x="146" y="0" key="CommitChangelistDialog2" timestamp="1590156892353">
+    <state x="146" y="0" key="CommitChangelistDialog2" timestamp="1590207532694">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="146" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1590156892353" />
+    <state x="146" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1590207532694" />
     <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589979889195">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589979889195" />
-    <state width="913" height="247" key="GridCell.Tab.0.bottom" timestamp="1590207498254">
+    <state width="913" height="247" key="GridCell.Tab.0.bottom" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590207498254" />
-    <state width="913" height="247" key="GridCell.Tab.0.center" timestamp="1590207498254">
+    <state width="913" height="247" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
+    <state width="913" height="247" key="GridCell.Tab.0.center" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590207498254" />
-    <state width="913" height="247" key="GridCell.Tab.0.left" timestamp="1590207498254">
+    <state width="913" height="247" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
+    <state width="913" height="247" key="GridCell.Tab.0.left" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590207498254" />
-    <state width="913" height="247" key="GridCell.Tab.0.right" timestamp="1590207498254">
+    <state width="913" height="247" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
+    <state width="913" height="247" key="GridCell.Tab.0.right" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590207498254" />
-    <state width="913" height="247" key="GridCell.Tab.1.bottom" timestamp="1590207498255">
+    <state width="913" height="247" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
+    <state width="913" height="247" key="GridCell.Tab.1.bottom" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590207498255" />
-    <state width="913" height="247" key="GridCell.Tab.1.center" timestamp="1590207498254">
+    <state width="913" height="247" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
+    <state width="913" height="247" key="GridCell.Tab.1.center" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590207498254" />
-    <state width="913" height="247" key="GridCell.Tab.1.left" timestamp="1590207498254">
+    <state width="913" height="247" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
+    <state width="913" height="247" key="GridCell.Tab.1.left" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590207498254" />
-    <state width="913" height="247" key="GridCell.Tab.1.right" timestamp="1590207498254">
+    <state width="913" height="247" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
+    <state width="913" height="247" key="GridCell.Tab.1.right" timestamp="1590333166188">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="913" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590207498254" />
+    <state width="913" height="247" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590333166188" />
     <state x="228" y="3" key="Registry" timestamp="1589884067232">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -402,33 +431,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1589884009450" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1590156895956">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1590207542644">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1590156895956" />
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1590198607554">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1590207542644" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1590327746266">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590198607554" />
+    <state x="325" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590327746266" />
     <state x="254" y="40" width="773" height="600" key="find.popup" timestamp="1590031954099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="254" y="40" width="773" height="600" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1590031954099" />
-    <state x="333" y="132" key="git4idea.merge.GitPullDialog" timestamp="1590207505108">
+    <state x="333" y="132" key="git4idea.merge.GitPullDialog" timestamp="1590333174300">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="333" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1590207505108" />
-    <state x="56" y="70" key="new project wizard" timestamp="1590203510809">
+    <state x="333" y="132" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1590333174300" />
+    <state x="56" y="70" key="new project wizard" timestamp="1590327896601">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="56" y="70" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1590203510809" />
+    <state x="56" y="70" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1590327896601" />
     <state x="297" y="151" width="672" height="677" key="run.anything.popup" timestamp="1589867742968">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" width="672" height="677" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589867742968" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1590156078733">
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1590330104895">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1590156078733" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1590330104895" />
   </component>
 </project>
