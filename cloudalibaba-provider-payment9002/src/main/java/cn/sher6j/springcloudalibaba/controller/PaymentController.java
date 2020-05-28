@@ -15,7 +15,7 @@ public class PaymentController {
     @Value("${server.port}")
     private String serverPort;
 
-    @GetMapping("/payment/nacor/{id}")
+    @GetMapping("/payment/nacos/{id}")
     public String getPayment(@PathVariable("id") Integer id) {
         return "Nacos服务注册，端口：" + serverPort + "；id：" + id;
     }
